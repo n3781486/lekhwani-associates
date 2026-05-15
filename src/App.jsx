@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* 🔥 Wrap everything inside MainLayout */}
-        <Route element={<MainLayout />}>
+        <Route element={<Mainlayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
